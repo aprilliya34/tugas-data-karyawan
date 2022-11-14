@@ -1,12 +1,12 @@
 
 import * as React from 'react';
-import { View, Text, StyleSheet, Button } from 'react-native';
+import { View, Text } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Home from './Home';
 import Detail from './Detail';
 
-const Stack = crateNativeStackNavigator();
+const Stack = createNativeStackNavigator();
 
 
 function App() {
